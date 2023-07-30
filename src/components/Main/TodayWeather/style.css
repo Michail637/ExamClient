@@ -1,0 +1,34 @@
+.today-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+
+
+  color: #d7d7d7;
+  /* background-color: #0b121e; */
+  background-color: #1a2537;
+
+}
+
+.today-weather .image-wrapper {
+  max-width: 250px;
+}
+
+.today-weather .left-block{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.rain-probability {
+  color: #8a8585;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+.today-weather .right-block {
+
+}

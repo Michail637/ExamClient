@@ -1,0 +1,24 @@
+.today-forecast {
+  padding: 30px;
+  color: #d7d7d7;
+}
+
+.today-forecast .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.today-forecast .weather-by-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 35px;
+}
+
+.today-forecast .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 25px;
+}

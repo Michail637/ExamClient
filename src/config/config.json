@@ -1,0 +1,4 @@
+{
+  "CITIES_URL": "http://localhost:4000/cities?sourceUrl=https://www.metoffice.gov.uk/plain-rest-services/location-search?searchTerm=PARAM&max=4&filter=exclude-marine-offshore",
+  "WEATHER_URL": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/PARAM?unitGroup=metric&key=F98CHY4PSPXCGQBHV33WZGNKM&contentType=json"
+}

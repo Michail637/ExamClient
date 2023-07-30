@@ -1,0 +1,41 @@
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 15px;
+}
+
+.icon-wrapper{
+  color: #999898;
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 0;
+  border-radius: 12px;
+}
+
+.icon-wrapper i{
+  font-size: 17px;
+
+}
+
+.icon-wrapper:hover{
+  color: #e4e4e4;
+}
+
+.active {
+  background-color: rgba(106, 168, 255, 0.3);
+  color: rgba(154, 193, 248, 0.6);
+}
+
+
+
+
+
+
+
+

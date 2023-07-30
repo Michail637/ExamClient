@@ -1,0 +1,38 @@
+.air-conditions .data {
+  color: #e3e2e2;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.air-conditions i, p {
+  color: #9b9a9a;
+}
+
+.air-conditions .subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.air-conditions .conditions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: start;
+  row-gap: 40px;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+
+
+
+.conditions-grid .item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.conditions-grid .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
